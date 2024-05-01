@@ -1,0 +1,100 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    min-height: 200px;
+    width: 400px;
+    color: #FFFFFF;
+    background-color: #ffffff;
+    border-radius: 5px; /* Curved edges */
+}
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    background-color: #0000ff; /* Updated button color */
+    border: none;
+    color: #ffffff; /* Text color */
+    font-size: 16px;
+    padding: 12px 20px; /* Adjusted padding */
+    margin: 8px 0;
+    border-radius: 0px; /* Slightly increased border-radius for a softer look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjusted box-shadow for a subtle effect */
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transition for smoother color change and hover effect */
+}
+
+button:hover {
+    background-color: #27ae60; /* Darker color on hover */
+    transform: translateY(-2px); /* Slight lift on hover for a button press effect */
+}
+
+button:active {
+    background-color: #41C46E;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.modal-header {
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px; /* Increased padding for better spacing */
+    border-top-left-radius: 10px; /* Rounded corners */
+    border-top-right-radius: 10px;
+    font-size: 20px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    letter-spacing: 1px; /* Slightly increased letter spacing */
+}
+
+.modal-content {
+    padding: 0px 16px 0px 16px;
+}
+
+.modal-footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 3px 3px 8px 3px;
+}
+
+.container {
+    background-color: #ff3300;
+    margin: 8px 0px 8px 0px;
+    padding: 6px 14px 6px 14px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 2px 1px #00131f;
+}
+
+.container p {
+    margin: 0px;
+}
+
+.label {
+    color: #FFFFFF;
+    margin: 0px;
+    font-weight: 150;
+    text-align:center;
+}
+
+.number, .total-number {
+    color: #FFFFFF;
+    font-size: 32px;
+    text-align:center;
+}
+
+.modal-footer a {
+    color: #FF0000
+    ;
+}
